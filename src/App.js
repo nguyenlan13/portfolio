@@ -14,6 +14,9 @@ function App() {
             <Route
             path="/blogs" 
             render={({match}) => (<Blogs match={match} />)} />
+            <Route
+            path="/projects" 
+            render={({match}) => (<Projects match={match} />)} />
 
         </Switch>
         <Home/>
