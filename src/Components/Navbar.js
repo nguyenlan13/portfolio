@@ -14,6 +14,9 @@ function Navbar() {
             <Link>
                 <li>Projects</li>
             </Link>
+            <Link>
+                <li>outLANdish designs</li>
+            </Link>
         </nav>
     );
 }
