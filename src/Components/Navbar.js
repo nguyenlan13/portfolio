@@ -17,6 +17,9 @@ function Navbar() {
             <Link>
                 <li>outLANdish designs</li>
             </Link>
+            <Link>
+                <li>Contact</li>
+            </Link>
         </nav>
     );
 }
