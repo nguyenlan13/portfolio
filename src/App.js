@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home"
 import Blogs from "./Components/Blogs/Blog"
 import Projects from "./Components/Projects/Project"
+import Contact from "./Components/Contact"
 import './App.css';
 
 function App() {
@@ -12,15 +13,11 @@ function App() {
         <div className="App">
         <Navbar/>
         <Switch>
-            <Route
-            path="/blogs" 
-            render={({match}) => (<Blogs match={match} />)} />
-            <Route
-            path="/projects" 
-            render={({match}) => (<Projects match={match} />)} />
-
+            <Route exact path="/blog" component={Blogs}/>
+            <Route exact path="/projects" component={Projects}/>
+            <Route exact path="/contact" component={Contact}/>
+            <Route exact path="/" component={Home}/>
         </Switch>
-        <Home/>
         </div>
     </Router>
   );
