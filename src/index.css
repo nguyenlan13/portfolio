@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: white;
+  background-image: url("../src/Assets/Circuit_Background.jpg");
+  padding: 25px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
