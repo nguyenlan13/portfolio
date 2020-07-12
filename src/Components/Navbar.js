@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { SocialIcon } from 'react-social-icons';
-import { SocialMediaIconsReact } from 'social-media-icons-react';
+// import { SocialMediaIconsReact } from 'social-media-icons-react';
 
 
 function Navbar() {
