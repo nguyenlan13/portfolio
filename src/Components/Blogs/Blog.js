@@ -3,7 +3,7 @@ import React from "react";
 function Blog() {
   return (
     <div>
-      <h1>Blogs</h1>
+      <h1>Small Bytes</h1>
         <h2><a href="https://nguyenlan13.github.io/quick_sort">Quick Sort</a></h2>
         <h2><a href="https://nguyenlan13.github.io/selection_sort">Selection Sort</a></h2>
         <h2><a href="https://nguyenlan13.github.io/bubble_sort">Bubble Sort</a></h2>
