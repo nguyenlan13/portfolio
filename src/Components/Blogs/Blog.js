@@ -4,6 +4,8 @@ function Blog() {
   return (
     <div>
       <h1>Small Bytes</h1>
+        <h2><a href="https://nguyenlan13.github.io/boolean_short_circuit">Boolean Short Circuit</a></h2>
+        <h2><a href="https://nguyenlan13.github.io/boolean_short_circuit">Boolean Short Circuit</a></h2>
         <h2><a href="https://nguyenlan13.github.io/react_components">React Components</a></h2>
         <h2><a href="https://nguyenlan13.github.io/redux_thunk">Redux Thunk</a></h2>
         <h2><a href="https://nguyenlan13.github.io/active_record_associations">Active Record Associations</a></h2>
